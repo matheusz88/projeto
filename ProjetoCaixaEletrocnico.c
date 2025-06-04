@@ -25,7 +25,7 @@ int main (){
     if (senha == senhaUsuario){
         printf ("senha Correta\n\n");
 
-        while (escolha ||4) {
+        while (escolha !=4) {
 
         printf ("Digite a operacao desejada:\n (1) Consultar saldo\n (2) Saque\n (3)deposito\n (4) Sair\n");
         scanf ("%i", &escolha);
@@ -33,8 +33,7 @@ int main (){
 
         switch (escolha) {
                 case 1:
-                saldo = saldo=1000;
-                printf("Saldo=1000: %i" , saldo);
+                printf("Saldo: %f" , saldo);
                 break;
 
                 case 2:
